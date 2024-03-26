@@ -4,10 +4,10 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ERROR);
 
-define('HOST', 'localhost');
-define('BANCO', 'gessointegral_v1');
-define('USUARIO', 'root');
-define('SENHA', '');
+define('HOST', 'gessointegr_v1.mysql.dbaas.com.br');
+define('BANCO', 'gessointegr_v1');
+define('USUARIO', 'gessointegr_v1');
+define('SENHA', 'Maximiano@2004');
 
 define('DS', DIRECTORY_SEPARATOR);
 define('DIR_APP', __DIR__);
